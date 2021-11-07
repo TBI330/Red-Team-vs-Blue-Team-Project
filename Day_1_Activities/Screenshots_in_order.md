@@ -29,7 +29,7 @@ Complete the following to find the flag:
 - ![](Screenshots/hidden_directory_discovery.PNG)
 - Brute force the password for the hidden directory using the hydra command:
     - **Hint**: You may need to use `gunzip` to unzip `rockyou.txt.gz` before running Hydra.
-    - 
+   
     ![](Screenshots/hydra_command.PNG)
     
     ![](Screenshots/ashton_password.PNG)
