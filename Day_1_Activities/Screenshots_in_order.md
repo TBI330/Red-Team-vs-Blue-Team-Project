@@ -24,9 +24,9 @@ Your entire attack will take place using the `Kali Linux` Machine.
 Complete the following to find the flag:
 
 - Discover the IP address of the Linux web server.
-- ![](Screenshots/hidden_directory_discovery.PNG)
+- ![](Screenshots/ip_address_discovery.PNG
 - Locate the hidden directory on the web server.
-    - **Hint**: Use a browser to see which web pages will load, and/or use a tool like `dirb` to find URLs on the target site.
+- ![](Screenshots/hidden_directory_discovery.PNG)
 - Brute force the password for the hidden directory using the hydra command:
     - **Hint**: You may need to use `gunzip` to unzip `rockyou.txt.gz` before running Hydra.
     - **Hint**: `hydra -l <username> -P <wordlist> -s <port> -f -vV <victim.server.ip.address> http-get <path/to/secret/directory>`
