@@ -19,7 +19,7 @@ Even though you already know what you did to exploit the target, analyzing the l
 After creating your dashboard and becoming familiar with the search syntax, use these tools to answer the questions below:
 
 
-1. **Identify the offensive traffic.**
+### 1. **Identify the offensive traffic.**
    - **Identify the traffic between your machine and the web machine:**
 
 - **When did the interaction occur?**
@@ -57,7 +57,7 @@ The graph below shows the massive spike in web traffic that happen within minute
 
 
 
-2. **Find the request for the hidden directory.**
+### 2. **Find the request for the hidden directory.**
    - **In your attack, you found a secret folder. Let's look at that interaction between these two machines.**
 
 - **How many requests were made to this directory? At what time and from which IP address(es)?**
@@ -94,7 +94,7 @@ Only allow ip addresses from known (employee) ip addresses to access the hidden 
 The directories/webpages open to the public that revealed information about how to get to the hidden directory. As a company, we need to make sure no confidential information can be seen by anyone on the internet. It would be best to keep this file and/or directory off this server.
 
 
-3. **Identify the brute force attack.**
+### 3. **Identify the brute force attack.**
    - **After identifying the hidden directory, you used Hydra to brute-force the target server. Answer the following questions:**
 
 - **Can you identify packets specifically from Hydra?**
@@ -133,7 +133,7 @@ You can also set a limit of http requests allowed from one ip address within a s
 
 
 
-4. **Find the WebDav connection.**
+### 4. **Find the WebDav connection.**
    - **Use your dashboard to answer the following questions:**
 
 - **How many requests were made to this directory?**
@@ -166,7 +166,7 @@ Again, there seemed to be confidential information (instructions on how to gain 
 
 
 
-5. **Identify the reverse shell and meterpreter traffic.**
+### 5. **Identify the reverse shell and meterpreter traffic.**
    - **To finish off the attack, you uploaded a PHP reverse shell and started a meterpreter shell session. Answer the following questions:**
 
 - **Can you identify traffic from the meterpreter session?**
