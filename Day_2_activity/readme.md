@@ -24,6 +24,7 @@ After creating your dashboard and becoming familiar with the search syntax, use 
      - When did the interaction occur?
      
      Attacking machine (Kali): 192.168.1.90		Target (Victim) machine: 192.168.1.105
+     
 Traffic between the 2 machines occurred on October 31st between the time of 3:30 A.M. and 4:30 A.M.. There was a massive spike in traffic around 3:50 A.M for about 5 minutes. This is probably when the Brute-Force-Attack occurred.
 
 ![](screenshots/Day2_Traffic_during_day.PNG)
