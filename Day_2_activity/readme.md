@@ -174,7 +174,7 @@ It was hard to find traffic that identified with a meterpreter session. I did no
    
 I took a screenshot (below) of all the meterpreter session activity.
 
-    ![](screenshots/Day2_meterpreter_activity.PNG)
+   ![](screenshots/Day2_meterpreter_activity.PNG)
     
     
     
