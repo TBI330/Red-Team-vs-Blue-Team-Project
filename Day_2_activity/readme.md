@@ -42,6 +42,14 @@ Traffic between the 2 machines occurred on October 31st between the time of 3:30
    
 
      - What data is concerning from the Blue Team perspective?
+     
+More than 15,000 unauthorized response codes were issued within a matter of minutes. During this time, only 2 200 (authorized) response codes were issued. This means that out of at least 15,000 attempted logins, only 2 were successful.
+     
+The graph below shows the massive spike in web traffic that happen within minutes. This graph alone would signal suspicious behavior.
+
+![](screenshots/Day2_Traffic_during_hour.PNG)
+
+
 
 2. Find the request for the hidden directory.
    - In your attack, you found a secret folder. Let's look at that interaction between these two machines.
