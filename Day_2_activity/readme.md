@@ -32,6 +32,11 @@ Traffic between the 2 machines occurred on October 31st between the time of 3:30
 ![](screenshots/Day2_Traffic_during_day.PNG)
 
      - What responses did the victim send back?
+     
+ The table below shows the top response codes sent back to the Kali machine.
+ 
+ There were over 16,000 401 (unauthorized) reponse codes sent back to the Kali machine, just during the Brute-Force-Attack.
+
      - What data is concerning from the Blue Team perspective?
 
 2. Find the request for the hidden directory.
