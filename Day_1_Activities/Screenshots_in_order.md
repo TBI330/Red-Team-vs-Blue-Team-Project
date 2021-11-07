@@ -30,8 +30,9 @@ Complete the following to find the flag:
 - Brute force the password for the hidden directory using the hydra command:
     - **Hint**: You may need to use `gunzip` to unzip `rockyou.txt.gz` before running Hydra.
     ![](Screenshots/hydra_command.PNG)
-    ![](Screenshots/hydra_command.PNG)
+    ![](Screenshots/ashton_password.PNG)
 - Break the hashed password with the Crack Station website or John the Ripper.
+- 
 - Connect to the server via WebDav.
     - **Hint**: Look for WebDAV connection instructions in the file located in the secret directory. Note that these instructions may have an old IP Address in them, so you will need to use the IP address you have discovered.
 - Upload a PHP reverse shell payload.
