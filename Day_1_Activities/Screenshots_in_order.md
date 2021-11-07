@@ -24,7 +24,7 @@ Your entire attack will take place using the `Kali Linux` Machine.
 Complete the following to find the flag:
 
 - Discover the IP address of the Linux web server.
-- ![](Screenshots/ip_address_discovery.PNG
+- ![](Screenshots/ip_address_discovery.PNG)
 - Locate the hidden directory on the web server.
 - ![](Screenshots/hidden_directory_discovery.PNG)
 - Brute force the password for the hidden directory using the hydra command:
