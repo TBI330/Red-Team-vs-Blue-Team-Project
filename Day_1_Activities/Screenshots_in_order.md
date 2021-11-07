@@ -42,18 +42,37 @@ Complete the following to find the flag:
     
 - Break the hashed password with the Crack Station website or John the Ripper.
 
-![](Screenshots/hash_webpage.PNG)
+     ![](Screenshots/hash_webpage.PNG)
 
-![](Screenshots/password_cracked_hash.PNG)
+     ![](Screenshots/password_cracked_hash.PNG)
 
-![](Screenshots/ryan_login_webpage.PNG)
+     ![](Screenshots/ryan_login_webpage.PNG)
 
 - Connect to the server via WebDav.
     - **Hint**: Look for WebDAV connection instructions in the file located in the secret directory. Note that these instructions may have an old IP Address in them, so you will need to use the IP address you have discovered.
+    
+     ![](Screenshots/10_connect_to_webdav.png)
+    
 - Upload a PHP reverse shell payload.
     - **Hint**: Try using your scripting skills! MSVenom may also be helpful.
+
+     -Before:
+     
+     ![](Screenshots/ryan_login_webpage.PNG)
+     
+     -After:
+     
+     ![](Screenshots/payload_uploaded.PNG)
+
 - Execute payload that you uploaded to the site to open up a meterpreter session.
+
+     ![](Screenshots/meterpreter_established_session.PNG)
+     
+     ![](Screenshots/shell_session.PNG)
+
 - Find and capture the flag.
+
+     ![](Screenshots/flag_captured.PNG)
 
 After you have captured the flag, show it to your instructor.
 
