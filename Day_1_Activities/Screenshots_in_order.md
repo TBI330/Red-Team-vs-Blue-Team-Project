@@ -24,17 +24,30 @@ Your entire attack will take place using the `Kali Linux` Machine.
 Complete the following to find the flag:
 
 - Discover the IP address of the Linux web server.
-- ![](Screenshots/ip_address_discovery.PNG)
+- 
+     ![](Screenshots/ip_address_discovery.PNG)
+     
 - Locate the hidden directory on the web server.
-- ![](Screenshots/hidden_directory_discovery.PNG)
+
+     ![](Screenshots/hidden_directory_discovery.PNG)
+     
 - Brute force the password for the hidden directory using the hydra command:
     - **Hint**: You may need to use `gunzip` to unzip `rockyou.txt.gz` before running Hydra.
    
     ![](Screenshots/hydra_command.PNG)
     
     ![](Screenshots/ashton_password.PNG)
+    
+    ![](Screenshots/secret_folder_webpage.PNG)
+    
 - Break the hashed password with the Crack Station website or John the Ripper.
-- 
+
+![](Screenshots/hash_webpage.PNG)
+
+![](Screenshots/password_cracked_hash.PNG)
+
+![](Screenshots/ryan_login_webpage.PNG)
+
 - Connect to the server via WebDav.
     - **Hint**: Look for WebDAV connection instructions in the file located in the secret directory. Note that these instructions may have an old IP Address in them, so you will need to use the IP address you have discovered.
 - Upload a PHP reverse shell payload.
