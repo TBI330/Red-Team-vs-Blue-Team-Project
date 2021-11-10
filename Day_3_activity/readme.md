@@ -7,7 +7,7 @@ Today, you'll take a break from flexing your technical skills and focus on commu
 Therefore, you will summarize your work in a presentation containing the following sections:
 
 Link to Google Slides Presentation: [Cybersecurity Project 2 Presentation](https://docs.google.com/presentation/d/1PRu3lUAL4CGEOYst0odn1xnZXUfa54wapr16hDl2RTw/edit?usp=sharing)
-
+Link to Google Docs Interview Summary: [Project 2 Interview](https://docs.google.com/document/d/1PLwKK0f1Al4gmoOlImRqYd4iYMgFsMsze3KYhgqXvQg/edit?usp=sharing)
 - **Network Topology**: What are the addresses and relationships of the machines involved?  
 
   - **Solution**: The following machines live on the network:
