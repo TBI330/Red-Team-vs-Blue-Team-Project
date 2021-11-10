@@ -4,7 +4,6 @@ Congratulations! This week, you've worn two hats, playing the roles of attacker 
 
 Today, you'll take a break from flexing your technical skills and focus on communicating what you've learned during this project. In a real engagement, your client pays you not to break into their network, but to teach them how to protect it. This is why communication skills are vital in the cybersecurity field.
 
-Therefore, you will summarize your work in a presentation containing the following sections:
 
 Link to Google Slides Presentation: [Cybersecurity Project 2 Presentation](https://docs.google.com/presentation/d/1PRu3lUAL4CGEOYst0odn1xnZXUfa54wapr16hDl2RTw/edit?usp=sharing)
 
